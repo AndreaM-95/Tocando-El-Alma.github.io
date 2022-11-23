@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="/css/páginas/reset.css">
+
+        <title>Panel | Tocando EL Alma</title>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+        <link rel="icon" href="./multimedia/imagenes/favicon.ico"/>
+
+        <link rel="stylesheet" href="css/nav-general-pie.css">
+        <link rel="stylesheet" href="css/panel.css">
+        <link rel="stylesheet" href="css/animacion-seccion.css">
+
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md ">
+            <!--<a href="index.html"><button class="btn-ingresar">Salir</button></a>-->
+        </nav>
+       
+        <h1 class="titulo_principal">Tocando el alma</h1>
+        
+        <div class="bienvenida">
+            <p class="saludo">&#127900; &#119137; ¡Hola! Este es el panel general, deslizate sobre cada imágen y lee sobre qué trata cada sección, esperamos poder acompañarte en este camino lleno de aprendizaje. Te dejamos una canción de fondo que pudes reproducir y adecuar el volúmen según te sea más cómodo. ¡Disfruta tu práctica! &#127900; &#119137;</p>
+            <audio class="audio" src="multimedia/musica/guitarra-fondo.mp3"controls loop="true" volumen="10%"></audio>
+        </div>
+
+        <main>
+            <div class="container" id="lista-productos">
+                <div class="img-card">
+                    <div class="card-header titulo-producto"><h4 class="my-0 font-weight-bold">Tipos de guitarra</h4></div>
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/imagenes/guitarras.jpg" class="card-img-top">
+                            <div class="capa">
+                                <p>Aquí encontrarás las descripción de las distintas guitarras que hay, desde una guitarra acústica hasta una eléctrica; también podrás ver algunas referencias y diseños.</p>
+                            </div>
+                        </figure>
+                        <a href="tipos.html" class="btn btn-block btn-primary agregar-carrito" data-id="1" onclick="sonido.play()">Ingresar</a>
+                    </div>
+                </div>
+    
+                <div class="img-card">
+                    <div class="card-header titulo-producto"><h4 class="my-0 font-weight-bold">Conoce tu guitarra</h4></div>
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/imagenes/guitarra.jpg" class="card-img-top">
+                            <div class="capa">
+                                <p>Ahora que ya sabes que guitarra tienes, ¿Qué te parece si exploramos sobre ella?; pues bien, aquí encontrarás la descripción de qué se conforma una guitarra y para qué sirven cada una de sus partes.</p>
+                            </div>
+                        </figure>
+                        <a href="conoceGuitarra.html" class="btn btn-block btn-primary agregar-carrito" data-id="2" onclick="sonido.play()">Ingresar</a>
+                    </div>
+                </div>
+
+                <div class="img-card">
+                    <div class="card-header titulo-producto"><h4 class="my-0 font-weight-bold">Teoría Musical</h4></div>
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/imagenes/teoria.jpg" class="card-img-top">
+                            <div class="capa">
+                                <p>Ahora que sabes lo necesario para usar adecuadamente tu guitarra es hora de aprender algo que muchos músicos que están empezando lo evaden.. ¡Así es! la teoría, ¡pero no te asustes! aquí estaremos para enseñarte de una manera clara y amigable.</p>
+                            </div>
+                        </figure>
+                        <a href="teoria.html" class="btn btn-block btn-primary agregar-carrito" data-id="3" onclick="sonido.play()">Ingresar</a>
+                    </div>
+                </div>
+    
+                <div class="img-card">
+                    <div class="card-header titulo-producto"><h4 class="my-0 font-weight-bold ">Ejercicios prácticos</h4></div>
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/imagenes/ejercicios.jpg">
+                            <div class="capa">
+                                <p>La digitación es la formación y aprendizaje de los dedos al tocar un instrumento musical, por esto, es fundamental que realices los ejercicios propuestos en esta sección para que generes una habilidad en el movimiento de ellos.</p>
+                            </div>
+                        </figure>
+                        <a href="ejercicios.html" class="btn btn-block btn-primary agregar-carrito" data-id="4" onclick="sonido.play()">Ingresar</a>
+                    </div>
+                </div>
+                
+                <div class="img-card">
+                    <div class="card-header titulo-producto"><h4 class="my-0 font-weight-bold ">Tutoriales</h4></div>
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/imagenes/clases.jpg">
+                            <div class="capa">
+                                <p>Ahora que has practicado tus ejercicios para generar una mayor flexibilidad y agilidad en tus manos, ¿Que te parece si empezamos a practicar con una canción?, aquí hay algunas que te pueden gustar.</p>
+                            </div>
+                        </figure>
+                        <a href="tutorial.html" class="btn btn-block btn-primary agregar-carrito" data-id="5"  onclick="sonido.play()">Ingresar</a>
+                    </div>
+                </div>
+
+                <div class="img-card">
+                    <div class="card-header titulo-producto"><h4 class="my-0 font-weight-bold ">¡Sube tu avance!</h4></div>
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/imagenes/avance.jpg">
+                            <div class="capa">
+                                <p>En esta sección te sentirás orgulloso de tu progreso, ya que aquí podrás tener tus avances  con los ejercicios, las canciones que lograste sacar y cómo te sentiste al realizar cada ítem propuesto.</p>
+                            </div>
+                        </figure>
+                        <a href="https://tocando-el-alma2.vercel.app/create-task" class="btn btn-block btn-primary agregar-carrito" data-id="6"  onclick="sonido.play()">Ingresar</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer id="rodapie">
+            <img class="rodapie-img" src="multimedia/imagenes/logo.png">
+            <p class="rodapie-texto"><strong>Desarrollado por Andrea Mejia - 2022</strong> </p>
+            <p class="rodapie-texto"><strong>&copy Copyright</strong></p>
+        </footer>
+    </body>
+    <script src="js/animaciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+</html>
